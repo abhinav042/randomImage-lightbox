@@ -43,8 +43,8 @@ function addNewImage(author) {
 	counter++;
 	const img = document.createElement("img");
 	const li = document.createElement("li");
-	img.src = author.picture.large;
-	images.push(author.picture.large);
+	img.src = author.picture.medium;
+	images.push(author.picture.medium);
 	img.id = `${counter}`;
 	img.className = `addImgSrc`;
 	img.addEventListener("click", () => {
