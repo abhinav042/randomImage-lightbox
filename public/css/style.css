@@ -33,6 +33,7 @@ img {
 
 /* Modal Content/Box */
 .modal-content {
+	padding: 20px;
 	position: relative;
 	background-color: #fefefe;
 	margin: auto;
