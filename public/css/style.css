@@ -8,6 +8,11 @@ ul {
 	margin: auto;
 }
 
+li {
+	display: inline;
+	padding: 8px;
+}
+
 img {
 	border-radius: 8px;
 }
@@ -33,12 +38,10 @@ img {
 
 /* Modal Content/Box */
 .modal-content {
-	position: relative;
-	background-color: #fefefe;
 	margin: auto;
-	display: block;
- 	width: 80%; 
-	max-width: 100px;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
 
 /* .modal-content {
@@ -108,4 +111,11 @@ img {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
