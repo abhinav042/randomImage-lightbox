@@ -1,0 +1,29 @@
+{
+  "name": "randomimagegen",
+  "version": "1.0.0",
+  "description": "A lightbox built using vanilla js, css and html",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinav042/randomImage-lightbox.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "javascript",
+    "lightbox"
+  ],
+  "author": "Abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinav042/randomImage-lightbox/issues"
+  },
+  "homepage": "https://github.com/abhinav042/randomImage-lightbox#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
