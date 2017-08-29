@@ -39,11 +39,10 @@ img {
 
 /* Modal Content/Box */
 .modal-content {
+	margin: auto;
+	display: block;
   	width: 80%;
   	max-width: 700px;
-	margin: auto;
-	margin-bottom: 100px;
-    display: block;
 }
 
 /* Add Animation - Zoom in the Modal */
