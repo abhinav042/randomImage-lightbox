@@ -30,18 +30,19 @@ img {
 	padding-top: 20px;
 	top: 0;
 	left: 0;
-	width: 70%; /* Full width */
-	height: 70%; /* Full height */
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
 	background-color: rgba(0, 0, 0, 0.9);
 	overflow: hidden; /* Enable scroll if needed */
 }
 
 /* Modal Content/Box */
 .modal-content {
-	margin: auto;
+	position: static;
+	margin: 20px;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 50%;
+    max-width: 500px;
 }
 
 /* .modal-content {
