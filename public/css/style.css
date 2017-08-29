@@ -1,3 +1,9 @@
+body {
+  background: linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px, linear-gradient(45deg, #92baac 45px, transparent 45px, transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px), linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px, #92baac 68px, #92baac 113px, transparent 113px, transparent 158px, #92baac 158px);
+  background-color: #e1ebbd;
+  background-size: 128px 128px;
+}
+
 h1 {
     text-align: center;
 }
@@ -39,11 +45,11 @@ img {
 
 /* Modal Content/Box */
 .modal-content {
-	margin: auto;
 	display: block;
   	width: 80%;
   	max-width: 700px;
-  	margin-bottom: 50px;
+  	margin-bottom: 100px;
+  	margin: auto;
 }
 
 /* Add Animation - Zoom in the Modal */
