@@ -27,24 +27,24 @@ img {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	padding-top: 20px;
-	top: 50%;
-	left: 50%;
+	top: 0;
+	left: 0;
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
-	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0.9);
 	overflow: auto; /* Enable scroll if needed */
 }
 
 /* Modal Content/Box */
 .modal-content {
-	position: static;
+	position: absolute;
+	top: 0;
+  	left: 0;
 	margin: 20px;
     display: block;
-    height: 50%;
     width: 50%;
     max-width: 500px;
+    padding: 20px 50px 20px 20px;
 }
 
 /* .modal-content {
