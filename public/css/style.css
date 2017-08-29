@@ -30,10 +30,10 @@ img {
 	padding-top: 20px;
 	top: 0;
 	left: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
+	width: 70%; /* Full width */
+	height: 70%; /* Full height */
 	background-color: rgba(0, 0, 0, 0.9);
-	overflow: auto; /* Enable scroll if needed */
+	overflow: hidden; /* Enable scroll if needed */
 }
 
 /* Modal Content/Box */
