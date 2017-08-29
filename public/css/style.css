@@ -53,7 +53,7 @@ img {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content { 
+/*.modal-content { 
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -68,7 +68,7 @@ img {
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
-}
+}*/
 
 /* The Close Button */
 .close {
