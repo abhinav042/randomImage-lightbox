@@ -42,6 +42,7 @@ img {
   	width: 80%;
   	max-width: 700px;
 	margin: auto;
+	margin-bottom: 100px;
     display: block;
 }
 
@@ -72,14 +73,17 @@ img {
 
 /* The Close Button */
 .close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover, .close:focus {
-	color: black;
+	color: gray;
 	text-decoration: none;
 	cursor: pointer;
 }
