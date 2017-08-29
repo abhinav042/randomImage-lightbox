@@ -41,6 +41,7 @@ img {
 	position: static;
 	margin: 20px;
     display: block;
+    height: 50%;
     width: 50%;
     max-width: 500px;
 }
