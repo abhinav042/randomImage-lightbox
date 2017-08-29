@@ -47,8 +47,8 @@ img {
 /* Modal Content/Box */
 .modal-content {
 	display: block;
-  	width: 80%;
-  	max-width: 700px;
+  	width: 60%;
+  	max-width: 500px;
   	margin: auto;
 }
 
