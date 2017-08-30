@@ -89,7 +89,7 @@ getAllTheImages().then(() => {
 
 	// --- DEBUGGING --- console.log(imageList); --- DEBUGGING //
 	for (let i = 0; i < imageList.length; i++) {
-		console.log(document.getElementById(`image0${i+1}`).src);
+		// --- DEBUGGING --- console.log(document.getElementById(`image0${i+1}`).src); --- DEBUGGING //
 		document.getElementById(`image0${i+1}`).src = imageList[i].src;
 	}
 	// imageList.forEach((image, i) => {
