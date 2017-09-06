@@ -4,7 +4,7 @@
   "description": "A lightbox built using vanilla js, css and html",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
+    "build": "webpack --progress --watch",
     "start": "node server.js"
   },
   "repository": {
@@ -25,5 +25,11 @@
   "homepage": "https://github.com/abhinav042/randomImage-lightbox#readme",
   "dependencies": {
     "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^3.5.5"
   }
 }
